@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: "Roboto", serif;
+  width: 1440px;
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 146px;
+
+    img.menu {
+      width: 18px;
+      height: 20px;
+    }
+
+    img.logo-yt {
+      height: 20px;
+      width: 90px;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    .box-seach {
+      width: 348px;
+      height: 40px;
+      border: 1px solid rgba(204, 204, 204, 1);
+      border-right: 0px;
+    }
+
+    .button-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 57px;
+      height: 40px;
+      background: rgba(248, 248, 248, 1);
+      border: 1px solid rgba(204, 204, 204, 1);
+    }
+  }
+
+  .user {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 34px;
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+    }
+  }
+}
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-left: 75px;
+    padding-right: 16px;
+    gap: 24px;
+    height: 100vh;
+    background: rgba(249, 249, 249, 1);
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 952px;
+      height: 746px; 
+
+
+      .video {
+        img {
+          width: 952px;
+          height: 537;
+        }
+      }
+
+      .video-title {
+        width: 875px;
+        height: 23px;
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .video-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1 1 42px;
+        width: 902px;
+
+        .channel {
+          display: flex;
+          gap: 12px;
+          width: 170px;
+          justify-content: space-between;
+          align-items: center;
+
+          .avatar {
+            width: 42px;
+            height: 42px;
+            gap: 12px;
+          }
+
+          .channel-info {
+            width: 120px;
+            height: 32px;
+
+            .name {
+              font-size: 14px;
+              font-weight: 600;
+              text-align: left;
+              
+
+            }
+
+            .subscribers {
+              font-size: 14px;
+              font-weight: 400;
+              text-align: left;
+              
+            }
+          }
+        }
+      }
+    }
+    
+
+
+
+    .side {
+
+      .items {
+        width: 376px;
+        display: flex;
+        .item {
+          display: inline-flex;
+          gap: 16px;
+        }
+      }
+    }
+  }
+}
