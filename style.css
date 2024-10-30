@@ -5,13 +5,7 @@
 body {
   font-family: "Roboto", serif;
   width: 1440px;
-
-  span {
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    color: rgba(81, 81, 81, 1);
-  }
+}
 
 header {
   display: flex;
@@ -31,13 +25,11 @@ header {
     width: 146px;
 
     img.menu {
-      width: 18px;
       height: 20px;
     }
 
     img.logo-yt {
       height: 20px;
-      width: 90px;
     }
   }
 
@@ -78,113 +70,122 @@ header {
   }
 }
 
-  main {
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 16px 0 75px;
+  gap: 24px;
+  height: 100vh;
+  background: rgba(249, 249, 249, 1);
+  font-size: 14px;
+  font-weight: 600;
+
+  .content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 28px 16px 0 75px;
-    gap: 24px;
-    height: 100vh;
-    background: rgba(249, 249, 249, 1);
-    font-size: 14px;
-    font-weight: 600;
+    width: 952px;
+    height: 746px;
 
-    .content {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 952px;
-      height: 746px;
-
-      .video {
-        img {
-          width: 952px;
-          height: 537px;
-        }
-      }
-
-      .video-title {
-        display: flex;
-        width: 875px;
-        height: 23px;
-        font-size: 20px;
-        font-weight: 600;
-      }
-
-      .video-info {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 900px;
-
-        .channel {
-          display: flex;
-          justify-content: space-evenly;
-          align-items: center;
-          width: 160px;
-          gap: 10px;
-
-          .avatar {
-            width: 42px;
-            height: 42px;
-            gap: 12px;
-          }
-
-          .channel-info {
-            width: 120px;
-            height: 32px;
-          }
-        }
-
-        .subscribe {
-          display: flex;
-          width: 159px;
-          height: 40px;
-          justify-content: center;
-          align-items: center;
-          background: rgba(204, 0, 0, 1);
-          color: rgba(255, 255, 255, 1);
-          border-radius: 2px;
-          font-weight: 500;
-        }
-
-        .item {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 8px;
-        }
-
-      }
-      .description {
-        width: 510px;
+    .video {
+      img {
+        width: 952px;
+        height: 537px;
       }
     }
 
-    .side {
+    .video-title {
+      width: 875px;
+      height: 23px;
+      font-size: 20px;
+    }
 
-      .items {
+    .video-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 900px;
+
+      .channel {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 376px;
-        height: 938px;
+        align-items: center;
+        width: 160px;
+        gap: 10px;
+
+        .avatar {
+          width: 42px;
+          height: 42px;
+          gap: 12px;
+        }
+
+        .channel-info {
+          width: 120px;
+          height: 32px;
+
+          span {
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        width: 159px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(204, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 2px;
+        font-weight: 500;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
 
 
-        .item {
-          display: inline-flex;
-          gap: 16px;
+    .views {
+      span {
+        margin-left: 4px;
+      }
+    }
 
-          .info {
-            display: flex;
-            flex-direction: column;
-            height: 88px;
-            gap: 8px;
+    .description {
+      width: 510px;
+      font-weight: 400;
+      color: rgba(81, 81, 81, 1);
+    }
+  }
 
-            .description {
-              font-size: 12px;
-              font-weight: 400;
-              color: rgba(81, 81, 81, 1);
-            }
+  .side {
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 376px;
+      gap: 16px;
+
+
+      .item {
+        display: inline-flex;
+        gap: 16px;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          height: 88px;
+          gap: 8px;
+
+          .description {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
           }
         }
       }
