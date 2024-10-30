@@ -1,8 +1,17 @@
-body {
+* {
   margin: 0;
+}
+
+body {
   font-family: "Roboto", serif;
   width: 1440px;
 
+  span {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(81, 81, 81, 1);
+  }
 
 header {
   display: flex;
@@ -72,29 +81,29 @@ header {
   main {
     display: flex;
     justify-content: space-between;
-    padding-top: 28px;
-    padding-left: 75px;
-    padding-right: 16px;
+    padding: 28px 16px 0 75px;
     gap: 24px;
     height: 100vh;
     background: rgba(249, 249, 249, 1);
+    font-size: 14px;
+    font-weight: 600;
 
     .content {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       width: 952px;
-      height: 746px; 
-
+      height: 746px;
 
       .video {
         img {
           width: 952px;
-          height: 537;
+          height: 537px;
         }
       }
 
       .video-title {
+        display: flex;
         width: 875px;
         height: 23px;
         font-size: 20px;
@@ -105,15 +114,14 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex: 1 1 42px;
-        width: 902px;
+        width: 900px;
 
         .channel {
           display: flex;
-          gap: 12px;
-          width: 170px;
-          justify-content: space-between;
+          justify-content: space-evenly;
           align-items: center;
+          width: 160px;
+          gap: 10px;
 
           .avatar {
             width: 42px;
@@ -124,37 +132,60 @@ header {
           .channel-info {
             width: 120px;
             height: 32px;
-
-            .name {
-              font-size: 14px;
-              font-weight: 600;
-              text-align: left;
-              
-
-            }
-
-            .subscribers {
-              font-size: 14px;
-              font-weight: 400;
-              text-align: left;
-              
-            }
           }
         }
+
+        .subscribe {
+          display: flex;
+          width: 159px;
+          height: 40px;
+          justify-content: center;
+          align-items: center;
+          background: rgba(204, 0, 0, 1);
+          color: rgba(255, 255, 255, 1);
+          border-radius: 2px;
+          font-weight: 500;
+        }
+
+        .item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+        }
+
+      }
+      .description {
+        width: 510px;
       }
     }
-    
-
-
 
     .side {
 
       .items {
-        width: 376px;
         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 376px;
+        height: 938px;
+
+
         .item {
           display: inline-flex;
           gap: 16px;
+
+          .info {
+            display: flex;
+            flex-direction: column;
+            height: 88px;
+            gap: 8px;
+
+            .description {
+              font-size: 12px;
+              font-weight: 400;
+              color: rgba(81, 81, 81, 1);
+            }
+          }
         }
       }
     }
