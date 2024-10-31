@@ -1,0 +1,1559 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", serif;
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 146px;
+
+    img.menu {
+      height: 20px;
+    }
+
+    img.logo-yt {
+      height: 20px;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    .box-seach {
+      width: 348px;
+      height: 40px;
+      border: 1px solid rgba(204, 204, 204, 1);
+      border-right: 0px;
+    }
+
+    .button-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 57px;
+      height: 40px;
+      background: rgba(248, 248, 248, 1);
+      border: 1px solid rgba(204, 204, 204, 1);
+    }
+  }
+
+  .user {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 34px;
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 16px 0 75px;
+  gap: 24px;
+  height: 100vh;
+  background: rgba(249, 249, 249, 1);
+  font-size: 14px;
+  font-weight: 600;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 952px;
+    height: 746px;
+
+    .video {
+      img {
+        width: 952px;
+        height: 537px;
+      }
+    }
+
+    .video-title {
+      width: 875px;
+      height: 23px;
+      font-size: 20px;
+    }
+
+    .video-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 900px;
+
+      .channel {
+        display: flex;
+        align-items: center;
+        width: 160px;
+        gap: 10px;
+
+        .avatar {
+          width: 42px;
+          height: 42px;
+          gap: 12px;
+        }
+
+        .channel-info {
+          width: 120px;
+          height: 32px;
+
+          span {
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        width: 159px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(204, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 2px;
+        font-weight: 500;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+
+
+    .views {
+      span {
+        margin-left: 4px;
+      }
+    }
+
+    .description {
+      width: 510px;
+      font-weight: 400;
+      color: rgba(81, 81, 81, 1);
+    }
+  }
+
+  .side {
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 376px;
+      gap: 16px;
+
+
+      .item {
+        display: inline-flex;
+        gap: 16px;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          height: 88px;
+          gap: 8px;
+
+          .description {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", serif;
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 146px;
+
+    img.menu {
+      height: 20px;
+    }
+
+    img.logo-yt {
+      height: 20px;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    .box-seach {
+      width: 348px;
+      height: 40px;
+      border: 1px solid rgba(204, 204, 204, 1);
+      border-right: 0px;
+    }
+
+    .button-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 57px;
+      height: 40px;
+      background: rgba(248, 248, 248, 1);
+      border: 1px solid rgba(204, 204, 204, 1);
+    }
+  }
+
+  .user {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 34px;
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 16px 0 75px;
+  gap: 24px;
+  height: 100vh;
+  background: rgba(249, 249, 249, 1);
+  font-size: 14px;
+  font-weight: 600;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 952px;
+    height: 746px;
+
+    .video {
+      img {
+        width: 952px;
+        height: 537px;
+      }
+    }
+
+    .video-title {
+      width: 875px;
+      height: 23px;
+      font-size: 20px;
+    }
+
+    .video-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 900px;
+
+      .channel {
+        display: flex;
+        align-items: center;
+        width: 160px;
+        gap: 10px;
+
+        .avatar {
+          width: 42px;
+          height: 42px;
+          gap: 12px;
+        }
+
+        .channel-info {
+          width: 120px;
+          height: 32px;
+
+          span {
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        width: 159px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(204, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 2px;
+        font-weight: 500;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+
+
+    .views {
+      span {
+        margin-left: 4px;
+      }
+    }
+
+    .description {
+      width: 510px;
+      font-weight: 400;
+      color: rgba(81, 81, 81, 1);
+    }
+  }
+
+  .side {
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 376px;
+      gap: 16px;
+
+
+      .item {
+        display: inline-flex;
+        gap: 16px;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          height: 88px;
+          gap: 8px;
+
+          .description {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", serif;
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 146px;
+
+    img.menu {
+      height: 20px;
+    }
+
+    img.logo-yt {
+      height: 20px;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    .box-seach {
+      width: 348px;
+      height: 40px;
+      border: 1px solid rgba(204, 204, 204, 1);
+      border-right: 0px;
+    }
+
+    .button-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 57px;
+      height: 40px;
+      background: rgba(248, 248, 248, 1);
+      border: 1px solid rgba(204, 204, 204, 1);
+    }
+  }
+
+  .user {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 34px;
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 16px 0 75px;
+  gap: 24px;
+  height: 100vh;
+  background: rgba(249, 249, 249, 1);
+  font-size: 14px;
+  font-weight: 600;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 952px;
+    height: 746px;
+
+    .video {
+      img {
+        width: 952px;
+        height: 537px;
+      }
+    }
+
+    .video-title {
+      width: 875px;
+      height: 23px;
+      font-size: 20px;
+    }
+
+    .video-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 900px;
+
+      .channel {
+        display: flex;
+        align-items: center;
+        width: 160px;
+        gap: 10px;
+
+        .avatar {
+          width: 42px;
+          height: 42px;
+          gap: 12px;
+        }
+
+        .channel-info {
+          width: 120px;
+          height: 32px;
+
+          span {
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        width: 159px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(204, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 2px;
+        font-weight: 500;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+
+
+    .views {
+      span {
+        margin-left: 4px;
+      }
+    }
+
+    .description {
+      width: 510px;
+      font-weight: 400;
+      color: rgba(81, 81, 81, 1);
+    }
+  }
+
+  .side {
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 376px;
+      gap: 16px;
+
+
+      .item {
+        display: inline-flex;
+        gap: 16px;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          height: 88px;
+          gap: 8px;
+
+          .description {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", serif;
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 146px;
+
+    img.menu {
+      height: 20px;
+    }
+
+    img.logo-yt {
+      height: 20px;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    .box-seach {
+      width: 348px;
+      height: 40px;
+      border: 1px solid rgba(204, 204, 204, 1);
+      border-right: 0px;
+    }
+
+    .button-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 57px;
+      height: 40px;
+      background: rgba(248, 248, 248, 1);
+      border: 1px solid rgba(204, 204, 204, 1);
+    }
+  }
+
+  .user {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 34px;
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 16px 0 75px;
+  gap: 24px;
+  height: 100vh;
+  background: rgba(249, 249, 249, 1);
+  font-size: 14px;
+  font-weight: 600;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 952px;
+    height: 746px;
+
+    .video {
+      img {
+        width: 952px;
+        height: 537px;
+      }
+    }
+
+    .video-title {
+      width: 875px;
+      height: 23px;
+      font-size: 20px;
+    }
+
+    .video-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 900px;
+
+      .channel {
+        display: flex;
+        align-items: center;
+        width: 160px;
+        gap: 10px;
+
+        .avatar {
+          width: 42px;
+          height: 42px;
+          gap: 12px;
+        }
+
+        .channel-info {
+          width: 120px;
+          height: 32px;
+
+          span {
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        width: 159px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(204, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 2px;
+        font-weight: 500;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+
+
+    .views {
+      span {
+        margin-left: 4px;
+      }
+    }
+
+    .description {
+      width: 510px;
+      font-weight: 400;
+      color: rgba(81, 81, 81, 1);
+    }
+  }
+
+  .side {
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 376px;
+      gap: 16px;
+
+
+      .item {
+        display: inline-flex;
+        gap: 16px;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          height: 88px;
+          gap: 8px;
+
+          .description {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", serif;
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 146px;
+
+    img.menu {
+      height: 20px;
+    }
+
+    img.logo-yt {
+      height: 20px;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    .box-seach {
+      width: 348px;
+      height: 40px;
+      border: 1px solid rgba(204, 204, 204, 1);
+      border-right: 0px;
+    }
+
+    .button-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 57px;
+      height: 40px;
+      background: rgba(248, 248, 248, 1);
+      border: 1px solid rgba(204, 204, 204, 1);
+    }
+  }
+
+  .user {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 34px;
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 16px 0 75px;
+  gap: 24px;
+  height: 100vh;
+  background: rgba(249, 249, 249, 1);
+  font-size: 14px;
+  font-weight: 600;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 952px;
+    height: 746px;
+
+    .video {
+      img {
+        width: 952px;
+        height: 537px;
+      }
+    }
+
+    .video-title {
+      width: 875px;
+      height: 23px;
+      font-size: 20px;
+    }
+
+    .video-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 900px;
+
+      .channel {
+        display: flex;
+        align-items: center;
+        width: 160px;
+        gap: 10px;
+
+        .avatar {
+          width: 42px;
+          height: 42px;
+          gap: 12px;
+        }
+
+        .channel-info {
+          width: 120px;
+          height: 32px;
+
+          span {
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        width: 159px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(204, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 2px;
+        font-weight: 500;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+
+
+    .views {
+      span {
+        margin-left: 4px;
+      }
+    }
+
+    .description {
+      width: 510px;
+      font-weight: 400;
+      color: rgba(81, 81, 81, 1);
+    }
+  }
+
+  .side {
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 376px;
+      gap: 16px;
+
+
+      .item {
+        display: inline-flex;
+        gap: 16px;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          height: 88px;
+          gap: 8px;
+
+          .description {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", serif;
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 146px;
+
+    img.menu {
+      height: 20px;
+    }
+
+    img.logo-yt {
+      height: 20px;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    .box-seach {
+      width: 348px;
+      height: 40px;
+      border: 1px solid rgba(204, 204, 204, 1);
+      border-right: 0px;
+    }
+
+    .button-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 57px;
+      height: 40px;
+      background: rgba(248, 248, 248, 1);
+      border: 1px solid rgba(204, 204, 204, 1);
+    }
+  }
+
+  .user {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 34px;
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 16px 0 75px;
+  gap: 24px;
+  height: 100vh;
+  background: rgba(249, 249, 249, 1);
+  font-size: 14px;
+  font-weight: 600;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 952px;
+    height: 746px;
+
+    .video {
+      img {
+        width: 952px;
+        height: 537px;
+      }
+    }
+
+    .video-title {
+      width: 875px;
+      height: 23px;
+      font-size: 20px;
+    }
+
+    .video-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 900px;
+
+      .channel {
+        display: flex;
+        align-items: center;
+        width: 160px;
+        gap: 10px;
+
+        .avatar {
+          width: 42px;
+          height: 42px;
+          gap: 12px;
+        }
+
+        .channel-info {
+          width: 120px;
+          height: 32px;
+
+          span {
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        width: 159px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(204, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 2px;
+        font-weight: 500;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+
+
+    .views {
+      span {
+        margin-left: 4px;
+      }
+    }
+
+    .description {
+      width: 510px;
+      font-weight: 400;
+      color: rgba(81, 81, 81, 1);
+    }
+  }
+
+  .side {
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 376px;
+      gap: 16px;
+
+
+      .item {
+        display: inline-flex;
+        gap: 16px;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          height: 88px;
+          gap: 8px;
+
+          .description {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", serif;
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 146px;
+
+    img.menu {
+      height: 20px;
+    }
+
+    img.logo-yt {
+      height: 20px;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    .box-seach {
+      width: 348px;
+      height: 40px;
+      border: 1px solid rgba(204, 204, 204, 1);
+      border-right: 0px;
+    }
+
+    .button-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 57px;
+      height: 40px;
+      background: rgba(248, 248, 248, 1);
+      border: 1px solid rgba(204, 204, 204, 1);
+    }
+  }
+
+  .user {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 34px;
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 16px 0 75px;
+  gap: 24px;
+  height: 100vh;
+  background: rgba(249, 249, 249, 1);
+  font-size: 14px;
+  font-weight: 600;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 952px;
+    height: 746px;
+
+    .video {
+      img {
+        width: 952px;
+        height: 537px;
+      }
+    }
+
+    .video-title {
+      width: 875px;
+      height: 23px;
+      font-size: 20px;
+    }
+
+    .video-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 900px;
+
+      .channel {
+        display: flex;
+        align-items: center;
+        width: 160px;
+        gap: 10px;
+
+        .avatar {
+          width: 42px;
+          height: 42px;
+          gap: 12px;
+        }
+
+        .channel-info {
+          width: 120px;
+          height: 32px;
+
+          span {
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        width: 159px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(204, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 2px;
+        font-weight: 500;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+
+
+    .views {
+      span {
+        margin-left: 4px;
+      }
+    }
+
+    .description {
+      width: 510px;
+      font-weight: 400;
+      color: rgba(81, 81, 81, 1);
+    }
+  }
+
+  .side {
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 376px;
+      gap: 16px;
+
+
+      .item {
+        display: inline-flex;
+        gap: 16px;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          height: 88px;
+          gap: 8px;
+
+          .description {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", serif;
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 146px;
+
+    img.menu {
+      height: 20px;
+    }
+
+    img.logo-yt {
+      height: 20px;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    .box-seach {
+      width: 348px;
+      height: 40px;
+      border: 1px solid rgba(204, 204, 204, 1);
+      border-right: 0px;
+    }
+
+    .button-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 57px;
+      height: 40px;
+      background: rgba(248, 248, 248, 1);
+      border: 1px solid rgba(204, 204, 204, 1);
+    }
+  }
+
+  .user {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 34px;
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 16px 0 75px;
+  gap: 24px;
+  height: 100vh;
+  background: rgba(249, 249, 249, 1);
+  font-size: 14px;
+  font-weight: 600;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 952px;
+    height: 746px;
+
+    .video {
+      img {
+        width: 952px;
+        height: 537px;
+      }
+    }
+
+    .video-title {
+      width: 875px;
+      height: 23px;
+      font-size: 20px;
+    }
+
+    .video-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 900px;
+
+      .channel {
+        display: flex;
+        align-items: center;
+        width: 160px;
+        gap: 10px;
+
+        .avatar {
+          width: 42px;
+          height: 42px;
+          gap: 12px;
+        }
+
+        .channel-info {
+          width: 120px;
+          height: 32px;
+
+          span {
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        width: 159px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(204, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 2px;
+        font-weight: 500;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+
+
+    .views {
+      span {
+        margin-left: 4px;
+      }
+    }
+
+    .description {
+      width: 510px;
+      font-weight: 400;
+      color: rgba(81, 81, 81, 1);
+    }
+  }
+
+  .side {
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 376px;
+      gap: 16px;
+
+
+      .item {
+        display: inline-flex;
+        gap: 16px;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          height: 88px;
+          gap: 8px;
+
+          .description {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(81, 81, 81, 1);
+          }
+        }
+      }
+    }
+  }
+}
